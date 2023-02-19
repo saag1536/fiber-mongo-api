@@ -1,0 +1,15 @@
+จากข้อ 2 
+database  ใช่  mongodb  เพราะเรียก database มาใช่ได้ ง่ายกว่าเรียกใช่ที่ไหนก็ได้
+
+rest api
+www.asianergy.com/users       Get   ดูทั้งหมด
+www.asianergy.com/user/{ID}   Get   ดูรายตั
+www.asianergy.com/user        Post  เพิ่มข้อมูล
+www.asianergy.com/user/{ID}   Put   แก้ไขข้อมูล
+www.asianergy.com/user/{ID}   Delete ลบข้อมูล
+
+{
+    "name":       string
+    "price":      int
+    "quantity"    string
+}
