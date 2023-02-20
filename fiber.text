@@ -1,15 +1,13 @@
 จากข้อ 2 
-database  ใช่  mongodb  เพราะเรียก database มาใช่ได้ ง่ายกว่าเรียกใช่ที่ไหนก็ได้
+mongodb  เป็น json สามารถค้นหาจากส่วนไหนของข้อมูลก็ได้ 
 
 rest api
-www.asianergy.com/users       Get   ดูทั้งหมด
-www.asianergy.com/user/{ID}   Get   ดูรายตั
-www.asianergy.com/user        Post  เพิ่มข้อมูล
-www.asianergy.com/user/{ID}   Put   แก้ไขข้อมูล
-www.asianergy.com/user/{ID}   Delete ลบข้อมูล
+www.asianergy.com/user                               POST   สร้าง user เพิ่อมาใช่ Cart 
 
-{
-    "name":       string
-    "price":      int
-    "quantity"    string
-}
+
+www.asianergy.com/carts/                             Get    ดู Cart ทุกอัน
+www.asianergy.com/cart/{user id}                     Get    ดู cart เฉพาะอัน     
+www.asianergy.com/cart/{user id}                     POST   เพิ่มข้อมูลใน Cart
+www.asianergy.com/cart/{user id}/{name product }     Put    แก้ไขข้อมูล Cart (ใส่ชื่อสินค้า เพื่อแก้ไข)
+www.asianergy.com/cart/{user id}/{name product }     Delete ลบข้อมูลใน Cart(ใส่ชื่อสินค้า เพื่อลบ)
+
