@@ -1,5 +1,5 @@
 จากข้อ 2 
-mongodb  เป็น json สามารถค้นหาจากส่วนไหนของข้อมูลก็ได้ 
+mongodb  เป็น json สามารถค้นหาจากส่วนไหนของข้อมูลก็ได้ เหมาะสำหรับการ ทำ shopping
 
 rest api
 www.asianergy.com/user                               POST   สร้าง user เพิ่อมาใช่ Cart 
